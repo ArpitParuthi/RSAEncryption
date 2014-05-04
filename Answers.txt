@@ -1,0 +1,36 @@
+
+I was not able to compile my assignment without using the package property.
+
+The commands to compile my programs are as following:
+javac Assignment_6/KeyGen.java
+javac Assignment_6/Encode.java
+javac Assignment_6/Decode.java
+javac Assignment_6/EncodeString.java
+javac Assignment_6/DecodeInts.java
+javac Asssignment_6/RSA.java
+
+The commands to run my programs are:
+java Assignment_6/KeyGen
+java Assignment_6/Encode
+java Assignment_6/Decode
+java Assignment_6/EncodeString
+java Assignment_6/DecodeInts
+java Assignment_6/RSA 10
+java Assignment_6/RSA encrypt Sample.txt
+java Assignment_6/RSA decrypt Sample.txt.enc
+
+Answers for question 1 through 9 are as follows:
+
+1) a) Program KeyGen.java, b) Program Encode.java, c) Program Decode.java
+2) 16
+3) {
+4) Q
+5) 187, Decoded to character z (If it is to be encoded, 100)
+6) Alice's private key is 187. Using d=187,
+	112 is decoded as "A" (with a cap)
+	359 is decoded as A BLANK
+	296 is decoded as "x"
+	113 is decoded as "1" (superscript)
+7) Program EncodeString.java
+8) Program DecodeInts.java
+9) Program RSA.java, all parts a),b), and c) are performed by the program using XGCD()
